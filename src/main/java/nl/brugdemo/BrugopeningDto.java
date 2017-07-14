@@ -2,6 +2,10 @@ package nl.brugdemo;
 
 import java.util.Date;
 
+/**
+ * Er ijn diverse spoorbruggen in Nederland die open en dicht kunnen.
+ * Dit object stelt een openings en sluitingstijd van een brug voor.
+ */
 public class BrugopeningDto {
 
     private String naam;
