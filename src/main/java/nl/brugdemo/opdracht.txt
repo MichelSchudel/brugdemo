@@ -1,6 +1,7 @@
 1. Er is een brugopening conflict wanneer er voor 1 brug twee brugopeningen tegelijkertijd
-gepland zijn. Schrijf een functie die een lijst met brugopeningen controleert op conflicten.
+gepland zijn. Schrijf een functie (en een test op die functie)
+die een lijst met brugopeningen controleert op conflicten.
 
-2.Schrijf een test.
 
-3. Stel dat de lijst van brugopeningen erg groot kan worden. Zou je dan de oplossing uit opdracht 1 hierop aanpassen?
+2. Stel dat de lijst van brugopeningen erg groot kan worden.
+Zou je dan de oplossing uit opdracht 1 hierop aanpassen?
