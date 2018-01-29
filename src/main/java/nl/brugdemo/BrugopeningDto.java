@@ -8,16 +8,16 @@ import java.util.Date;
  */
 public class BrugopeningDto {
 
-    private String naam;
+    private String brugNaam;
     private Date gaatOpen;
     private Date gaatDicht;
 
-    public String getNaam() {
-        return naam;
+    public String getBrugNaam() {
+        return brugNaam;
     }
 
-    public void setNaam(String naam) {
-        this.naam = naam;
+    public void setBrugNaam(String brugNaam) {
+        this.brugNaam = brugNaam;
     }
 
     public Date getGaatOpen() {
