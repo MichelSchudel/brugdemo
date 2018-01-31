@@ -1,6 +1,6 @@
 package nl.brugdemo;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
 /**
  * Er zijn diverse spoorbruggen in Nederland die open en dicht kunnen.
@@ -9,8 +9,8 @@ import java.util.Date;
 public class BrugopeningDto {
 
     private String brugNaam;
-    private Date gaatOpen;
-    private Date gaatDicht;
+    private LocalDateTime gaatOpen;
+    private LocalDateTime gaatDicht;
 
     public String getBrugNaam() {
         return brugNaam;
@@ -20,19 +20,19 @@ public class BrugopeningDto {
         this.brugNaam = brugNaam;
     }
 
-    public Date getGaatOpen() {
+    public LocalDateTime getGaatOpen() {
         return gaatOpen;
     }
 
-    public void setGaatOpen(Date gaatOpen) {
+    public void setGaatOpen(LocalDateTime gaatOpen) {
         this.gaatOpen = gaatOpen;
     }
 
-    public Date getGaatDicht() {
+    public LocalDateTime getGaatDicht() {
         return gaatDicht;
     }
 
-    public void setGaatDicht(Date gaatDicht) {
+    public void setGaatDicht(LocalDateTime gaatDicht) {
         this.gaatDicht = gaatDicht;
     }
 }
