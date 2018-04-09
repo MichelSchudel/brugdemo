@@ -1,4 +1,5 @@
-Er is een brugopening conflict wanneer er voor 1 brug twee
+Er is een brugopening conflict wanneer er voor 1 brug (te identificeren aan de naam) twee
 brugopeningen tegelijkertijd gepland zijn.
 
-Schrijf een functie die een lijst met brugopeningen detecteert op conflicten en deze conflicten terugstuurt.
+Schrijf een functie die een lijst met brugopeningen ontvangt,
+detecteert op conflicten, en deze conflicten rapporteert.
